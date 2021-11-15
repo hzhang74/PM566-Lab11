@@ -23,6 +23,7 @@ library(plotly)
 library(ggplot2)
 ```
 
+**See my lab output** [**here**](https://ghcdn.rawgit.org/hzhang74/PM566-Lab11/main/Lab11.md)
 
 ## 1. Read in the data
 ```{r}
