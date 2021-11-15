@@ -5,13 +5,17 @@ date: "2021/11/12"
 output: 
   html_document: 
     keep_md: yes
+link-citations: yes
+editor_options: 
+  chunk_output_type: console
+always_allow_html: true
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-```{r warning=FALSE}
+```{r include=FALSE}
 library(tidyverse)
 library(dplyr)
 library(data.table)
